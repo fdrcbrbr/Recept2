@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    font-family: "Open Sans";
+}
 
 body {
     display: flex;
@@ -5,7 +10,11 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: deeppink;
+    background-color: #A100004D;
+}
+
+ .ingred, .stegar, .tips, .title_main, .lead{
+    width: 90%;
 }
 
 .main {
@@ -15,16 +24,45 @@ body {
     max-width: 80%;
     margin: 0 auto;
     border: none;
+    background-color: #FCFCFC;
 }
 
-.img_main, .lead, .ingred, .stegar, .tips {
-    width: 100%;
+.title_main{
+font-family: 'Open Sans';
+color: #A10000;
+font-size: 40px;
+}
+
+.lead{
+    background-color: #EBEBEB;
+}
+
+.lead p{
+    margin-left: 20px;
 }
 
 .img_main img {
 max-width: 100%;
 height: auto;
-
+margin: 0;
 }
+
+.ingred_head{
+    display: flex;
+}
+
+.ingred li{
+    margin-left: 0;
+}
+
+.tips_pic{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.tips_pic img {
+    width: 50%;
+}
+
 
 
