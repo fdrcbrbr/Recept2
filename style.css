@@ -1,0 +1,30 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: deeppink;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    border: none;
+}
+
+.img_main, .lead, .ingred, .stegar, .tips {
+    width: 100%;
+}
+
+.img_main img {
+max-width: 100%;
+height: auto;
+
+}
+
+
