@@ -51,8 +51,12 @@ margin: 0;
     display: flex;
 }
 
-.ingred li{
-    margin-left: 0;
+.ingred_head h1:first-child {
+    margin-right: 10px; 
+}
+
+ol, ul{
+    padding-left: 30px;
 }
 
 .tips_pic{
@@ -62,6 +66,10 @@ margin: 0;
 
 .tips_pic img {
     width: 50%;
+}
+
+.tips_pic img:first-child {
+    margin-right: 20px; 
 }
 
 
