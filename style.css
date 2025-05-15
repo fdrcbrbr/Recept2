@@ -72,5 +72,34 @@ ol, ul{
     margin-right: 20px; 
 }
 
+@media (max-width: 768px) {
+    .main {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .title_main {
+        font-size: 30px;
+    }
+
+    .tips_pic {
+        flex-direction: column;
+    }
+
+    .tips_pic img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tips_pic img:first-child {
+        margin-right: 0;
+    }
+
+    .lead p {
+        margin-left: 10px;
+    }
+
+}
+
 
 
