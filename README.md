@@ -1,3 +1,3 @@
-![istockphoto-1371079009-1024x1024](https://github.com/user-attachments/assets/23bcda0b-befb-44a6-8efc-ea2963712c0f)
+![the-kitchen-5028268_640](https://github.com/user-attachments/assets/cd3937cc-30aa-492c-a238-6f16929d5815)
 #
 # Lexicon test uppgift HTML-CSS
