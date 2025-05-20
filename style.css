@@ -1,105 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
-*{
-    font-family: "Open Sans";
+* {
+  font-family: "Open Sans";
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    background-color: #A100004D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #a100004d;
 }
 
- .ingred, .stegar, .tips, .title_main, .lead{
-    width: 90%;
+.ingred,
+.stegar,
+.tips,
+.title_main,
+.lead {
+  width: 90%;
 }
 
 .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 80%;
-    margin: 0 auto;
-    border: none;
-    background-color: #FCFCFC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+  border: none;
+  background-color: #fcfcfc;
 }
 
-.title_main{
-font-family: 'Open Sans';
-color: #A10000;
-font-size: 40px;
+.title_main {
+  color: #a10000;
+  font-size: 40px;
 }
 
-.lead{
-    background-color: #EBEBEB;
+.lead {
+  background-color: #ebebeb;
 }
 
-.lead p{
-    margin-left: 20px;
+.lead p {
+  margin-left: 20px;
 }
 
 .img_main img {
-max-width: 100%;
-height: auto;
-margin: 0;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
 }
 
-.ingred_head{
-    display: flex;
+.ingred_head {
+  display: flex;
 }
 
 .ingred_head h1:first-child {
-    margin-right: 10px; 
+  margin-right: 10px;
 }
 
-ol, ul{
-    padding-left: 30px;
+ol,
+ul {
+  padding-left: 30px;
 }
 
-.tips_pic{
-    display: flex;
-    margin-bottom: 50px;
+.tips_pic {
+  display: flex;
+  margin-bottom: 50px;
 }
 
 .tips_pic img {
-    width: 50%;
+  width: 50%;
 }
 
 .tips_pic img:first-child {
-    margin-right: 20px; 
+  margin-right: 20px;
 }
 
 @media (max-width: 768px) {
-    .main {
-        max-width: 100%;
-        padding: 10px;
-    }
+  .main {
+    max-width: 100%;
+    padding: 10px;
+  }
 
-    .title_main {
-        font-size: 30px;
-    }
+  .title_main {
+    font-size: 30px;
+  }
 
-    .tips_pic {
-        flex-direction: column;
-    }
+  .tips_pic {
+    flex-direction: column;
+  }
 
-    .tips_pic img {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .tips_pic img:first-child {
-        margin-right: 0;
-    }
-
-    .lead p {
-        margin-left: 10px;
-    }
-
+  .tips_pic img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
-
-
-
