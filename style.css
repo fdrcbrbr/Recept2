@@ -5,9 +5,6 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
   margin: 0;
   background-color: #a100004d;
@@ -16,51 +13,17 @@ body {
 .ingred,
 .stegar,
 .tips,
-.title_main,
+main,
 .lead {
-  width: 90%;
-}
-
-.main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 80%;
+  max-width: 1280px;
   margin: 0 auto;
   border: none;
   background-color: #fcfcfc;
 }
 
-.title_main {
+main h1 {
   color: #a10000;
   font-size: 40px;
-}
-
-.lead {
-  background-color: #ebebeb;
-}
-
-.lead p {
-  margin-left: 20px;
-}
-
-.img_main img {
-  max-width: 100%;
-  height: auto;
-  margin: 0;
-}
-
-.ingred_head {
-  display: flex;
-}
-
-.ingred_head h1:first-child {
-  margin-right: 10px;
-}
-
-ol,
-ul {
-  padding-left: 30px;
 }
 
 .tips_pic {
