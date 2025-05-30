@@ -41,6 +41,7 @@ header p{
 .tips_pic {
   display: flex;
   justify-content: center;
+  gap: 30px
 }
 
 .tips_pic img {
@@ -48,10 +49,6 @@ header p{
   margin-bottom: 50px;
 }
 
-.tips_pic img:first-child {
-  margin-right: 20px;
-  
-}
 
 @media (max-width: 768px) {
   .main {
